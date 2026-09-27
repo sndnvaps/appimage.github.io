@@ -3,7 +3,7 @@ layout: app
 
 permalink: /4KWALL/
 description: Browse, download, and auto-change 4K wallpapers
-license: LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/license/LICENSE
+license: LicenseRef-proprietary=https://gitlab.com/warlordsoftwares/4kwall/-/raw/main/share/license/LICENSE
 
 icons:
   - 4KWALL/icons/512x512/com.warlordsoftwares.wallpaper-app-4kwall.png
@@ -31,7 +31,7 @@ desktop:
     Categories: Graphics
     Terminal: false
     StartupWMClass: com.warlordsoftwares.wallpaper-app-4kwall
-    X-AppImage-Version: 2026.7.9
+    X-AppImage-Version: 2026.9.5
   AppImageHub:
     X-AppImage-Signature: 'directory ''/home/runner/.gnupg'' created keybox ''/home/runner/.gnupg/pubring.kbx''
       created [don''t know]: invalid packet (ctb=0a) no signature found the signature
@@ -39,4 +39,8 @@ desktop:
       should be the first file given on the command line.'
     X-AppImage-Type: 2
     X-AppImage-Architecture: x86_64
+    X-AppImage-Libc: host
+    X-AppImage-Runtime: static
+    X-AppImage-Self-Contained: false
+    X-AppImage-Glibc-Required: GLIBC_2.14
 ---

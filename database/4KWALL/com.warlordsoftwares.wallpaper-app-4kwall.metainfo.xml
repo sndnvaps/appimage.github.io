@@ -2,7 +2,7 @@
 <component type="desktop">
 	<id>com.warlordsoftwares.wallpaper-app-4kwall</id>
 	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/license/LICENSE</project_license>
+	<project_license>LicenseRef-proprietary=https://gitlab.com/warlordsoftwares/4kwall/-/raw/main/share/license/LICENSE</project_license>
 	<developer_name translate="no">Warlord Softwares</developer_name>
  <branding>
     <color type="primary" scheme_preference="light">#b3b3b3</color>
@@ -11,7 +11,6 @@
 	<name>4KWALL</name>
 	<summary>Set 4K, HD and live wallpapers for your desktop background</summary>
 	<description>
-		<p>ABOUT 4KWALL :</p>
 		<p>4kWall is a fast wallpaper manager and changer for Linux. Browse, download, and set stunning 4K, UHD, and HD wallpapers as your desktop background in a single click, with thousands of high-resolution images to choose from.</p>
 		<p>FEATURES :</p>
 			<ul>
@@ -63,27 +62,27 @@
 	<screenshots>
 		<screenshot type="default">
 			<caption>4KWALL: Explore page</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/explore-page.png</image>
+			<image type="source">https://gitlab.com/warlordsoftwares/4kwall/-/raw/main/share/screenshots/explore-page.png</image>
 		</screenshot>
 		<screenshot>
 			<caption>4KWALL: Favorite page</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page.png</image>
+			<image type="source">https://gitlab.com/warlordsoftwares/4kwall/-/raw/main/share/screenshots/favorite-page.png</image>
 		</screenshot>
 		<screenshot>
 			<caption>4KWALL: Auto rotate wallpapers</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/wallpaper-auto-rotation.png</image>
+			<image type="source">https://gitlab.com/warlordsoftwares/4kwall/-/raw/main/share/screenshots/wallpaper-auto-rotation.png</image>
 		</screenshot>
 		<screenshot>
 			<caption>4KWALL: App settings</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/settings-4kwall.png</image>
+			<image type="source">https://gitlab.com/warlordsoftwares/4kwall/-/raw/main/share/screenshots/settings-4kwall.png</image>
 		</screenshot>
 		<screenshot>
 			<caption>4KWALL: Favorite page light theme</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KWALL/main/share/screenshots/favorite-page-light.png</image>
+			<image type="source">https://gitlab.com/warlordsoftwares/4kwall/-/raw/main/share/screenshots/favorite-page-light.png</image>
 		</screenshot>
 	</screenshots>
 	<url type="homepage">https://warlordsoftwares.com/trending-apps/4kwall-modern-wallpaper-app-with-auto-wallpaper-changer/</url>
-	<url type="vcs-browser">https://github.com/rishabh3354/4KWALL/</url>
+	<url type="vcs-browser">https://github.com/rishabh3354/4KWALL</url>
 	<url type="bugtracker">https://github.com/rishabh3354/4KWALL/issues</url>
 	<url type="contact">https://warlordsoftwares.com/contact-us/</url>
 	<url type="donation">https://www.paypal.me/rishabh3354/10</url>
@@ -91,6 +90,28 @@
 	<launchable type="desktop-id">com.warlordsoftwares.wallpaper-app-4kwall.desktop</launchable>
 	<content_rating type="oars-1.1" />
 	<releases>
+		<release version="2026.9.5" date="2026-9-5">
+			<description>
+				<p>Wallpaper not applying for some distros - fixed</p>
+			</description>
+		</release>
+		<release version="2026.8.19" date="2026-08-19">
+			<description>
+				<p>1. Explore page is much faster and smoother: scrolling no longer jumps, flickers or stutters.</p>
+				<p>2. Wallpaper feeds are now cached, so Trending, Latest and Viral open instantly instead of reloading every time.</p>
+				<p>3. Added search history: click the search box to see recent searches, and remove them individually or all at once.</p>
+				<p>4. A search with no exact match now shows related wallpapers instead of an empty page.</p>
+				<p>5. Viewer can be resized, remembers its size, opens maximized, and remembers if you left it fullscreen.</p>
+				<p>6. Viewer: next and previous now work while an image is still loading, and wallpaper tags are shown and can be clicked to search.</p>
+				<p>7. Auto wallpaper changer can now rotate your Favorites or any folder on your computer, not just downloads.</p>
+				<p>8. Auto wallpaper changer: the preview updates as soon as you pick a source, and a 10 second interval was added.</p>
+				<p>9. Added proxy support (HTTP and SOCKS5) for networks where the wallpaper service is not reachable directly.</p>
+				<p>10. Grid size can now be set separately for Explore, Favorites and Downloads, including a new 6x6 layout.</p>
+				<p>11. Added a Set as wallpaper button on downloaded favorites.</p>
+				<p>12. Fixed dragging the viewer and dialog windows on Wayland.</p>
+				<p>13. Fixed a stuck resize cursor, several freezes, and thumbnails failing to load from some servers.</p>
+			</description>
+		</release>
 		<release version="2026.7.9" date="2026-7-9" />
 		<release version="2026.7.8" date="2026-7-8" />
 		<release version="2026.6.25" date="2026-6-29" />
